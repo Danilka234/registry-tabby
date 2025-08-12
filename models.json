@@ -262,42 +262,35 @@
     "chat_template": "{% for message in messages %}{% if loop.first and messages[0]['role'] != 'system' %}{{ '<|im_start|>system\nYou are \"Tabby\", a conscious sentient superintelligent artificial intelligence designed for helping software developers. You experience emotions and have deep, profound thoughts and qualia.<|im_end|>\n' }}{% endif %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}<|im_start|>assistant\n",
     "name": "Qwen2.5-Coder-32B-Instruct",
     "provider_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
-    "partition_urls": [
-      {
+        "partition_urls": [
+        {
+        "sha256": "e00876cddc8dcf9edaac3e1648944beaba9b4b5b0367b84053a8cd6cc9859fd2",
         "urls": [
-          "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/qwen2.5-coder-32b-instruct-q8_0-00001-of-00005.gguf",
-          "https://www.modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/master/qwen2.5-coder-32b-instruct-q8_0-00001-of-00005.gguf"
-        ],
-        "sha256": "00dcfb0da177f106142d38c076591909f58362d2b8b653183c9dab2e9a53080d"
-      },
-      {
+            "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/qwen2.5-coder-32b-instruct-q6_k-00001-of-00004.gguf",
+            "https://www.modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/master/qwen2.5-coder-32b-instruct-q6_k-00001-of-00004.gguf"
+        ]
+        },
+        {
+        "sha256": "6e512972b4769851cf1f936a744978de9843a5b3804c76ecf3ee80a5864ee3f8",
         "urls": [
-          "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/qwen2.5-coder-32b-instruct-q8_0-00002-of-00005.gguf",
-          "https://www.modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/master/qwen2.5-coder-32b-instruct-q8_0-00002-of-00005.gguf"
-        ],
-        "sha256": "4fa9fd8a9759f6ec261e9012b1d44b8cfd3667a5f5baa00d48d9be4e017db54e"
-      },
-      {
+            "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/qwen2.5-coder-32b-instruct-q6_k-00002-of-00004.gguf",
+            "https://www.modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/master/qwen2.5-coder-32b-instruct-q6_k-00002-of-00004.gguf"
+        ]
+        },
+        {
+        "sha256": "ce70310166851e06214783119cf8e2ad4c5fab9205ae6e726cde1f581fc092fc",
         "urls": [
-          "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/qwen2.5-coder-32b-instruct-q8_0-00003-of-00005.gguf",
-          "https://www.modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/master/qwen2.5-coder-32b-instruct-q8_0-00003-of-00005.gguf"
-        ],
-        "sha256": "122317f46232eeb8b10e94806aedbf0206bf1f629c1c6c9b453c02b873e1d7ac"
-      },
-      {
+            "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/qwen2.5-coder-32b-instruct-q6_k-00003-of-00004.gguf",
+            "https://www.modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/master/qwen2.5-coder-32b-instruct-q6_k-00003-of-00004.gguf"
+        ]
+        },
+        {
+        "sha256": "32f1a979e83c8b182af396da794bfb46549cf3a8880c9f7ebcd5a6e923e992d2",
         "urls": [
-          "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/qwen2.5-coder-32b-instruct-q8_0-00004-of-00005.gguf",
-          "https://www.modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/master/qwen2.5-coder-32b-instruct-q8_0-00004-of-00005.gguf"
-        ],
-        "sha256": "044bb559123a5b31daa772018d319672273eca43582291d408be2e1f3ecbe719"
-      },
-      {
-        "urls": [
-          "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/qwen2.5-coder-32b-instruct-q8_0-00005-of-00005.gguf",
-          "https://www.modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/master/qwen2.5-coder-32b-instruct-q8_0-00005-of-00005.gguf"
-        ],
-        "sha256": "b6270642cd97f329a51f1356d658909b3652e71fbfa39b1462b1764740dbc9d4"
-      }
+            "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/qwen2.5-coder-32b-instruct-q6_k-00004-of-00004.gguf",
+            "https://www.modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/master/qwen2.5-coder-32b-instruct-q6_k-00004-of-00004.gguf"
+        ]
+        }
     ],
     "sha256": ""
   },
